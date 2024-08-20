@@ -68,7 +68,7 @@
 ### 6. Получите URL для доступа к веб-интерфейсу Airflow.
   1. Пробросим порты для доступа к веб-интерфейсу Airflow
     
-    ```kubectl port-forward svc/airflow-webserver 8888:8080 --namespace airflow```
+  ```kubectl port-forward svc/airflow-webserver 8888:8080 --namespace airflow```
 
   ![Работа веб-интерфейса airflow](./screenshots/step_06.png)
 
